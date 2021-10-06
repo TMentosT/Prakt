@@ -44,7 +44,7 @@ function del() {
 	num2 = parseInt(num2);
 
 
-	result = num2 ? num1 / num2 : "ОЙ";
+	result = num2 ? num1 / num2 : "Ошибка ввода";
 
 	document.getElementById('out').innerHTML = result;
 }
